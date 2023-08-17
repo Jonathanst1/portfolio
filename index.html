@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jonathan Frazão - Portfólio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <!-- Adicione qualquer outro estilo personalizado aqui -->
+  <style>
+    /* Gradient background */
+    body {
+      background: linear-gradient(to right, #d39e89, #6b3475);
+    }
+    
+    /* Animations */
+    .animated-bg {
+      animation: gradientAnimation 15s ease infinite;
+    }
+    
+    @keyframes gradientAnimation {
+      0%, 100% {
+        background-position: 0 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+    }
+    .project-card {
+      transition: transform 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+    /* Customize other styles as needed */
+  </style>
+</head>
+
+<body class="animated-bg">
+  <!-- Barra de navegação -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Jonathan Frazão</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Sobre Mim</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Seção Sobre Mim -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2 class="display-4">Sobre Mim</h2>
+          <p>Eu sou um desenvolvedor web, atualmente no último semestre do curso de Sistemas de Informação e também estou cursando uma pós-graduação em Segurança da Informação. Possuo 2 anos de experiência de estágio na empresa DATAPREV. Minhas habilidades englobam Python, Django, PHP, JavaScript, SQLite, SQL, HTML, CSS, Bootstrap, Tailwind CSS e Git.</p>
+        </div>
+        <div class="col-lg-6 d-none d-lg-block">
+          <!-- Adicione uma imagem sua aqui -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Seção Projetos -->
+  <section id="projects" class="bg-light py-5">
+    <div class="centered-content" >
+        <div class="centered-image" style=" display: flex; justify-content: center; ">
+          <img src="emDEV.gif" class="card-img-top" style="width: 500px;" alt="Projeto 1">
+        </div>
+
+    <div class="container">
+      <h2 class="display-4 text-center">Projetos</h2>
+      <div class="row mt-4">
+        <!-- Projeto 1 -->
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card project-card">
+            <img src="img/imagemteste.jpg" class="card-img-top" alt="Projeto 1">
+            <div class="card-body">
+              <h5 class="card-title">Projeto 1</h5>
+              <p class="card-text">Breve descrição do Projeto 1.</p>
+              <a href="#" class="btn btn-primary">Ver mais</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projeto 2 -->
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card project-card">
+            <img src="" class="card-img-top" alt="Projeto 2">
+            <div class="card-body">
+              <h5 class="card-title">Projeto 2</h5>
+              <p class="card-text">Breve descrição do Projeto 2.</p>
+              <a href="#" class="btn btn-primary">Ver mais</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projeto 3 -->
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card project-card">
+            <img src="caminho/para/imagem_projeto3.jpg" class="card-img-top" alt="Projeto 3">
+            <div class="card-body">
+              <h5 class="card-title">Projeto 3</h5>
+              <p class="card-text">Breve descrição do Projeto 3.</p>
+              <a href="#" class="btn btn-primary">Ver mais</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projeto 4 -->
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card project-card">
+            <img src="caminho/para/imagem_projeto4.jpg" class="card-img-top" alt="Projeto 4">
+            <div class="card-body">
+              <h5 class="card-title">Projeto 4</h5>
+              <p class="card-text">Breve descrição do Projeto 4.</p>
+              <a href="#" class="btn btn-primary">Ver mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card project-card">
+              <img src="caminho/para/imagem_projeto4.jpg" class="card-img-top" alt="Projeto 4">
+              <div class="card-body">
+                <h5 class="card-title">Projeto 5</h5>
+                <p class="card-text">Breve descrição do Projeto 4.</p>
+                <a href="#" class="btn btn-primary">Ver mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card project-card">
+              <img src="caminho/para/imagem_projeto4.jpg" class="card-img-top" alt="Projeto 4">
+              <div class="card-body">
+                <h5 class="card-title">Projeto 6</h5>
+                <p class="card-text">Breve descrição do Projeto 4.</p>
+                <a href="#" class="btn btn-primary">Ver mais</a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Contato -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="display-4 text-center">Contato</h2>
+      <div class="row justify-content-center mt-4">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Entre em contato</h5>
+              <p class="card-text">Você pode me contatar através do seguinte e-mail: jonathan418@gmail.com </p>
+              <div class="d-flex justify-content-center">
+                <a href="https://github.com/Jonathanst1">
+                    <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github v-align-middle color-fg-default">
+                      <path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path>
+                    </svg>
+                  </a>
+
+                  <a href="https://www.linkedin.com/in/jonathan-fraz%C3%A3o-948983169/">
+                <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  fill="blue" class="mercado-match" width="32" height="32" focusable="false">
+                    <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path>
+                  </svg>
+                </a>
+                  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2023 Jonathan Frazão. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+</body>
+
+</html>
