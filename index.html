@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jonathan Frazão - Portfólio</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
   <!-- Adicione qualquer outro estilo personalizado aqui -->
   <style>
     /* Gradient background */
@@ -68,7 +70,7 @@
       <div class="row">
         <div class="col-lg-6">
           <h2 class="display-4">Sobre Mim</h2>
-          <p>Eu sou um desenvolvedor web, atualmente no último semestre do curso de Sistemas de Informação e também estou cursando uma pós-graduação em Segurança da Informação. Possuo 2 anos de experiência de estágio na empresa DATAPREV. Minhas habilidades englobam: Python, Django, PHP, JavaScript, SQLite, SQL, HTML, CSS, Bootstrap, Tailwind CSS e Git.</p>
+          <p>Eu sou um desenvolvedor web, atualmente no último semestre do curso de Sistemas de Informação e também estou cursando uma pós-graduação em Segurança da Informação. Possuo 2 anos de experiência de estágio na empresa DATAPREV. Minhas habilidades englobam Python, Django, PHP, JavaScript, SQLite, SQL, HTML, CSS, Bootstrap, Tailwind CSS e Git.</p>
         </div>
         <div class="col-lg-6 d-none d-lg-block">
           <!-- Adicione uma imagem sua aqui -->
@@ -86,14 +88,38 @@
     <div class="container">
       <h2 class="display-4 text-center">Projetos</h2>
       <div class="row mt-4">
-        <!-- Projeto 1 -->
-        <div class="col-md-6 col-lg-4 mb-4">
+        <div class="col-md-6 col-lg-7 mb-4">
           <div class="card project-card">
-            <img src="img/imagemteste.jpg" class="card-img-top" alt="Projeto 1">
+            <video autoplay src="img/spa.mp4" class="card-img-top" alt="Projeto 1"></video>
             <div class="card-body">
-              <h5 class="card-title">Projeto 1</h5>
-              <p class="card-text">Breve descrição do Projeto 1.</p>
-              <a href="#" class="btn btn-primary">Ver mais</a>
+              <h5 class="card-title">Sistema de Planejamento de Atendimento</h5>
+              <p class="card-text">Desenvolvido com Python Django, HTML, Bootstrap e SQLite, o sistema é projetado para gerenciar documentos, oferecendo funcionalidades de criação, edição, duplicação, versionamento e download de arquivos em formato DOCX.</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#projeto1Modal">Ver mais</button>
+            </div>
+          </div>
+        </div>
+        <!-- Adicione mais projetos aqui -->
+     
+
+        <!-- Modal 1 -->
+        <div class="modal fade" id="projeto1Modal" tabindex="-1" aria-labelledby="projeto1ModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-xl"> <!-- Utilize modal-xl para um modal extra grande -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="projeto1ModalLabel">Sistema de Planejamento de Atendimento</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <!-- Conteúdo do modal -->
+                <img src="img/spa1.png" class="img-fluid mb-2" alt="Projeto 1">
+                <img src="img/spa3.png" class="img-fluid mb-2" alt="Projeto 1">
+                <img src="img/spa2.png" class="img-fluid mb-2" alt="Projeto 1">
+                <img src="img/spa4.png" class="img-fluid mb-2" alt="Projeto 1">
+                <p>Desenvolvido com Python Django, HTML, Bootstrap e SQLite, o sistema é projetado para gerenciar documentos, oferecendo funcionalidades de criação, edição, duplicação, versionamento e download de arquivos em formato DOCX.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+              </div>
             </div>
           </div>
         </div>
@@ -194,6 +220,7 @@
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  
   
 </body>
 
